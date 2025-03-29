@@ -72,3 +72,8 @@ Additionally, each generated NMEA sentence will be appended to the `nmea_output.
 *   Implement Kalman filtering or other state estimation techniques to smooth the location output and handle potential matching failures.
 *   Use more advanced feature matching or template matching algorithms.
 *   Send the NMEA data over a serial port (real or virtual) using `pyserial` to interface with other navigation software.
+
+## References
+
+*   [pynmea2](https://github.com/Knio/pynmea2): Python library used for parsing/generating NMEA 0183 protocol (GPS) sentences.
+*   [OpenCV Documentation](https://docs.opencv.org): Used for feature detection (ORB), matching, and homography calculation/estimation.
